@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 80%;
+            margin: 20px;
+            border: 10px;
+            border-radius: 10px;
+            border-collapse: collapse;
+            box-shadow: 0px 0px 0px ;
+            overflow: hidden;
+        }
+        tr,th,td{
+            border: 2px rgb(255, 255, 255) solid;
+    
+            border-collapse: collapse;
+            text-align: center;
+            padding: 25px;
+
+        }
+        tr:nth-of-type(even){
+            background-color: rgb(255, 255, 255);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        tr:nth-of-type(odd){
+            background-color: rgb(227, 242, 215);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        tr:hover{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>EXAMPLE FOR TABLE</h1>
+    <table>
+        <tr style="background-color: green;color: azure;" >
+            <th>ROLL NO</th>
+            <th>NAME</th>
+            <th>SUBJECT</th>
+            <th>MARKS</th>
+            <th>GRADE</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>scott</td>
+            <td>math</td>
+            <td>90</td>
+            <td>A</td>
+            
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Adam</td>
+            <td>Science</td>
+            <td>85</td>
+            <td>B</td>
+            
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>miller</td>
+            <td>english</td>
+            <td>92</td>
+            <td>A</td>
+            
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>David</td>
+            <td>History</td>
+            <td>78</td>
+            <td>C</td>
+            
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>James</td>
+            <td>physics</td>
+            <td>88</td>
+            <td>B</td>
+            
+        </tr>
+    </table>
+    
+</body>
+</html>
