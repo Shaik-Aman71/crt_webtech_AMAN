@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: Arial;
+            background-color: black;
+            color: white;
+            margin: 50px
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 40px;
+        }
+        img{
+            width: 200px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.5s ease-in-out;
+        }
+        .zoom:hover{
+            transform: scale(1.2);
+        }
+        .zoom-animate{
+            animation: zoom 3s infinite alternate ease-in-out;
+        }
+        @keyframes zoom{
+            0%{transform: scale(1);}
+            100%{transform: scale(1.2);}
+        }
+        .stretch:hover{
+            transform: scaleX(1.5);
+        }
+        .tall:hover{
+            transform: scaleY(1.5);
+        }
+        .shrink:hover{
+            transform: scale(0.5);
+        }
+        
+        </style>
+</head>
+<body>
+    <h1>SCALE IMAGE EFFECTS</h1>
+    <div class="container">
+        <div>
+            <h2>1.hover to zoom</h2>
+            <img src="image\image effects.jpg" alt="zoom image" class="zoom"></div>
+            <div><h2>2.contineous zoom in & out</h2>
+            <img src="image\image effects.jpg" alt="zoom animation" class="zoom-animate"></div>
+            <div><h2>3.hover to stretch horizontally </h2>
+            <img src="image\image effects.jpg" alt="stretch image" class="stretch"></div>
+            <div><h2>4.hover to stretch vertically</h2>
+            <img src="image\image effects.jpg" alt="tall image" class="tall"></div>
+            <div><h2>5.hover to shrink</h2>
+            <img src="image\image effects.jpg" alt="shrink image" class="shrink"></div>
+          
+        </div>
+    </div>
+</body>
+</html><--these can also be done to the audio and video-->

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+            font-family: Arial;
+            background-color: black;
+            color: white;
+            margin: 50px
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 40px;
+        }
+        img{
+            width: 200px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.5s ease-in-out;
+        }
+        .float:hover{
+            transform: translateY(-50px);
+        }
+        .flip:hover{
+            transform: rotateY(180deg);
+        }
+        .blur{
+            filter: blur(5px);
+            transition: filter 0.5s ease-in-out;
+        }
+        .blur:hover{
+            filter: blur(0px);
+        }
+        .pulse{
+            animation: pulse 0.5s infinite alternate;
+        }
+        @keyframes pulse{
+            0%{
+                transform: scale(1);opacity: 1;}
+            100%{
+                transform: scale(1.1);opacity: 0.8; }
+        }
+        .shake:hover{
+            animation: shake 0.3s infinite alternate;
+        }
+        @keyframes shake{
+            0%,100%{transform: translateX(0px);}
+            25%{transform: translateX(-5px);}
+            50%{transform: translateX(5px);}
+            75%{transform: translateX(-5px);}
+        }
+       .spin:hover{
+           animation: spin 0.5s infinite linear;
+       }
+         @keyframes spin{
+              0%{transform: rotate(0deg);}
+              100%{transform: rotate(360deg);}
+         }
+            .tilt:hover{
+                transform: skew(20deg);
+            }
+
+    </style>
+</head>
+<body>
+    <h1>AWESOME IMAGE EFFECTS</h1>
+    <div class="container">
+        <div>
+            <h2>1.floating effect</h2>
+            <img src="image\image effects.jpg" alt="float image" class="float">
+            <h2>2.flip effect</h2>
+            <img src="image\image effects.jpg" alt="flip image" class="flip">
+            <h2>3.blur to focus effect</h2>
+            <img src="image\image effects.jpg" alt="blur image" class="blur">
+            <h2>4.pulsing effect</h2>
+            <img src="image\image effects.jpg" alt="pulse image" class="pulse">
+            <h2>5.shake effect</h2>
+            <img src="image\image effects.jpg" alt="shake image" class="shake">
+            <h2>6.spin effect</h2>
+            <img src="image\image effects.jpg" alt="spin image" class="spin">
+            <h2>7.skew effect</h2>
+            <img src="image\image effects.jpg" alt="tilt image" class="tilt">
+        </div>
+    </div>
+</body>
+</html><--these can also be done to the audio and video-->
