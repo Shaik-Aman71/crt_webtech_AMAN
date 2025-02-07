@@ -1,0 +1,123 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri;
+    font-style: italic;
+    font-size:medium;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top:12% ;     
+}
+#continar{
+    background-color: beige;
+    /* background-color: black; */
+    color: black;
+    width: 800px;
+    height: auto;
+    border-radius: 3%;
+    padding: 15px;
+
+}
+.one,.two,.three{
+    background-color: beige;
+    color: black;
+    width: 65px;
+    height: 45px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border: 2px solid rgb(0, 0, 100);
+    margin: 4px;
+   border-radius: 5px;
+
+}
+.four{
+    background-color: beige;
+    color: black;
+    width: 56px;
+    height: 45px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border: 2px solid rgb(0, 32, 128);
+    margin: 4px;
+    border-radius: 5px;
+}
+.five{
+    background-color: beige;
+    color: black;
+    width: 65px;
+    height: 45px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border: 2px solid rgb(191, 255, 0);
+    margin: 4px;
+   border-radius: 5px;
+}
+
+.row1,.row2,.row3,.row4,.row5{
+    display: flex;
+}
+#a1{
+background-color:  rgb(1, 1, 89);
+color: white;
+    width:90px;
+    height: 45px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border: 1px solid ;
+    margin: 2px;
+    border-radius: 5px;
+
+}
+#space{
+background-color: rgb(1, 1, 89);
+color: white;          
+  width: 310px;
+    height: 55px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border: 1px solid ;
+    margin: 2px;
+    border-radius: 5px;
+
+}
+#shift{
+
+background-color:  rgb(1, 1, 89);
+color: white;           
+ width: 150px;
+    height: 45px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border: 1px solid ;
+    margin: 2px;
+    border-radius: 5px;
+
+}
+#caps,#enter{
+background-color: rgb(1, 1, 89);
+color: white;          
+  width: 130px;
+    height: 45px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border: 1px solid ;
+    margin: 2px;
+    border-radius: 5px;
+
+}
+div:hover{
+transform: scale(1.2);
+transition: transform 0.1s ease-in-out
+
+      }
