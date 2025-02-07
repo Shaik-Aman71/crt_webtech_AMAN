@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 40px;
+            width: 2000px;
+            border: 3px black solid;
+            border-radius: 5px;
+            padding: 3px;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: aquamarine;" onmouseover="one()">MODULE 1</div><br><br>
+    <div style="background-color: aqua;" onmouseover="two()">MODULE 2</div><br><br>
+    <div style="background-color: bisque;" onmouseover="three()">MODULE 3</div><br><br>
+    <script>
+        function one(){
+            window.alert("module 1 focused")
+        }
+        function two(){
+            window.alert("module 2 focused")
+        }
+        function three(){
+            window.alert("module 3 focused")
+        }
+    </script>
+</body>
+</html>

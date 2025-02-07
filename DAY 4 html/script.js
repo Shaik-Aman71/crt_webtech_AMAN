@@ -1,0 +1,2 @@
+
+document.write("THIS IS MY FIRST JAVASVVRIPT PROGRAM")
